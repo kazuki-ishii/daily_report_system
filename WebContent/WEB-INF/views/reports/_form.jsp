@@ -11,7 +11,7 @@
 </c:if>
 
 <label for="code">日付</label><br />
-<input type="date" name="report_date" value="<fmt:formatDate value='${report.report_date }' pattern='yyyy-MM--dd'/>"/>
+<input type="date" name="report_date" value="<fmt:formatDate value='${report.report_date }' pattern='yyyy-MM-dd'/>"/>
 <br /><br />
 
 <label for="code">氏名</label><br />
